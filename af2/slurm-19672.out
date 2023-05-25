@@ -1,0 +1,11 @@
+2023-05-09 15:41:54,839 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/cf_1.5/bin/colabfold_batch", line 8, in <module>
+    sys.exit(main())
+  File "/opt/miniconda3/envs/cf_1.5/lib/python3.7/site-packages/colabfold/batch.py", line 1759, in main
+    queries, is_complex = get_queries(args.input, args.sort_queries_by)
+  File "/opt/miniconda3/envs/cf_1.5/lib/python3.7/site-packages/colabfold/batch.py", line 600, in get_queries
+    assert "id" in df.columns and "sequence" in df.columns
+AssertionError
+/var/spool/slurmd/job19672/slurm_script: line 15: syntax error near unexpected token `done'
+/var/spool/slurmd/job19672/slurm_script: line 15: `done'

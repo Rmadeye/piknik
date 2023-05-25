@@ -1,0 +1,183 @@
+2023-04-05 10:47:18,754 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-04-05 10:47:23,892 Running on GPU
+2023-04-05 10:47:24,413 Found 4 citations for tools or databases
+2023-04-05 10:47:24,413 Query 1/1: ache (length 542)
+2023-04-05 10:47:26,156 Sleeping for 9s. Reason: PENDING
+2023-04-05 10:47:35,996 Sleeping for 8s. Reason: RUNNING
+2023-04-05 10:47:44,869 Sleeping for 9s. Reason: RUNNING
+2023-04-05 10:47:54,715 Sleeping for 6s. Reason: RUNNING
+2023-04-05 10:48:01,622 Sleeping for 10s. Reason: RUNNING
+2023-04-05 10:48:12,545 Sleeping for 5s. Reason: RUNNING
+2023-04-05 10:48:18,389 Sleeping for 10s. Reason: RUNNING
+2023-04-05 10:48:29,242 Sleeping for 8s. Reason: RUNNING
+2023-04-05 10:48:38,149 Sleeping for 5s. Reason: RUNNING
+2023-04-05 10:48:43,977 Sleeping for 8s. Reason: RUNNING
+2023-04-05 10:48:52,874 Sleeping for 8s. Reason: RUNNING
+2023-04-05 10:49:01,761 Sleeping for 7s. Reason: RUNNING
+2023-04-05 10:49:09,617 Sleeping for 10s. Reason: RUNNING
+2023-04-05 10:49:20,551 Sleeping for 6s. Reason: RUNNING
+2023-04-05 10:49:27,409 Sleeping for 5s. Reason: RUNNING
+2023-04-05 10:49:33,329 Sleeping for 10s. Reason: RUNNING
+2023-04-05 10:49:44,169 Sleeping for 10s. Reason: RUNNING
+2023-04-05 10:49:55,066 Sleeping for 10s. Reason: RUNNING
+2023-04-05 10:50:05,968 Sleeping for 5s. Reason: RUNNING
+2023-04-05 10:50:11,858 Sleeping for 9s. Reason: RUNNING
+2023-04-05 10:50:21,772 Sleeping for 6s. Reason: RUNNING
+2023-04-05 10:50:28,625 Sleeping for 6s. Reason: RUNNING
+2023-04-05 10:50:35,517 Sleeping for 6s. Reason: RUNNING
+2023-04-05 10:50:42,426 Sleeping for 10s. Reason: RUNNING
+2023-04-05 10:50:53,361 Sleeping for 8s. Reason: RUNNING
+2023-04-05 10:51:02,285 Sleeping for 5s. Reason: RUNNING
+2023-04-05 10:51:08,175 Sleeping for 7s. Reason: RUNNING
+2023-04-05 10:51:16,032 Sleeping for 7s. Reason: RUNNING
+2023-04-05 10:51:23,864 Sleeping for 5s. Reason: RUNNING
+2023-04-05 10:51:35,880 Setting max_seq=512, max_extra_seq=5120
+2023-04-05 10:52:22,596 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=93.4 pTM=0.939
+2023-04-05 10:52:40,571 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.2 pTM=0.944 tol=0.403
+2023-04-05 10:52:58,700 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=94.5 pTM=0.944 tol=0.184
+2023-04-05 10:53:16,961 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=94.7 pTM=0.945 tol=0.0945
+2023-04-05 10:53:35,368 alphafold2_ptm_model_1_seed_000 recycle=4 pLDDT=94.9 pTM=0.945 tol=0.0803
+2023-04-05 10:53:53,858 alphafold2_ptm_model_1_seed_000 recycle=5 pLDDT=94.9 pTM=0.945 tol=0.0627
+2023-04-05 10:53:53,858 alphafold2_ptm_model_1_seed_000 took 121.3s (5 recycles)
+2023-04-05 10:53:54,176 reranking models by 'plddt' metric
+2023-04-05 10:53:54,176 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.9 pTM=0.945
+2023-04-05 10:53:55,368 Done
+2023-04-05 11:46:51,505 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-04-05 11:46:54,355 Running on GPU
+2023-04-05 11:46:54,776 Found 4 citations for tools or databases
+2023-04-05 11:46:54,777 Skipping ache (already done)
+2023-04-05 11:46:54,777 Done
+2023-04-05 11:46:55,712 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-04-05 11:46:58,570 Running on GPU
+2023-04-05 11:46:59,031 Found 4 citations for tools or databases
+2023-04-05 11:46:59,032 Query 1/1: amylase (length 496)
+2023-04-05 11:46:59,943 Sleeping for 7s. Reason: PENDING
+2023-04-05 11:47:07,835 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:47:15,758 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:47:26,646 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:47:33,457 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:47:41,310 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:47:49,218 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:47:55,104 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:48:01,999 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:48:10,882 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:48:19,790 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:48:29,685 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:48:37,578 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:48:48,502 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:48:54,415 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:49:05,250 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:49:11,147 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:49:17,050 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:49:22,896 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:49:33,846 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:49:40,670 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:49:47,514 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:49:55,404 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:50:04,314 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:50:11,140 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:50:17,025 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:50:25,917 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:50:32,756 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:50:42,654 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:50:48,601 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:50:57,449 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:51:05,300 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:51:11,204 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:51:18,113 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:51:25,975 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:51:35,804 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:51:42,629 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:51:56,228 Setting max_seq=512, max_extra_seq=5120
+2023-04-05 11:52:27,102 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=96 pTM=0.932
+2023-04-05 11:52:41,565 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=96.9 pTM=0.938 tol=0.28
+2023-04-05 11:52:56,049 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=97.1 pTM=0.938 tol=0.125
+2023-04-05 11:53:10,618 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=97.2 pTM=0.939 tol=0.0409
+2023-04-05 11:53:25,251 alphafold2_ptm_model_1_seed_000 recycle=4 pLDDT=97.2 pTM=0.939 tol=0.0535
+2023-04-05 11:53:39,938 alphafold2_ptm_model_1_seed_000 recycle=5 pLDDT=97.3 pTM=0.939 tol=0.0341
+2023-04-05 11:53:39,938 alphafold2_ptm_model_1_seed_000 took 97.8s (5 recycles)
+2023-04-05 11:53:40,184 reranking models by 'plddt' metric
+2023-04-05 11:53:40,184 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=97.3 pTM=0.939
+2023-04-05 11:53:41,075 Done
+2023-04-05 11:53:42,495 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-04-05 11:53:43,160 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-04-05 11:53:45,967 Running on GPU
+2023-04-05 11:53:46,386 Found 4 citations for tools or databases
+2023-04-05 11:53:46,387 Query 1/1: lipase (length 320)
+2023-04-05 11:53:47,333 Sleeping for 8s. Reason: PENDING
+2023-04-05 11:53:56,197 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:54:05,023 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:54:11,886 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:54:22,799 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:54:33,649 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:54:42,510 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:54:52,416 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:55:01,319 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:55:07,277 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:55:15,166 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:55:22,059 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:55:27,967 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:55:33,879 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:55:42,790 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:55:51,672 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:56:02,600 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:56:09,441 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:56:20,341 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:56:32,921 Setting max_seq=512, max_extra_seq=5120
+2023-04-05 11:56:54,477 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=84.9 pTM=0.841
+2023-04-05 11:57:01,126 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=86.8 pTM=0.854 tol=1.28
+2023-04-05 11:57:07,791 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=87.1 pTM=0.856 tol=0.981
+2023-04-05 11:57:14,455 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=87.1 pTM=0.855 tol=0.807
+2023-04-05 11:57:21,135 alphafold2_ptm_model_1_seed_000 recycle=4 pLDDT=87.4 pTM=0.858 tol=0.865
+2023-04-05 11:57:27,844 alphafold2_ptm_model_1_seed_000 recycle=5 pLDDT=87.1 pTM=0.855 tol=0.706
+2023-04-05 11:57:27,844 alphafold2_ptm_model_1_seed_000 took 49.5s (5 recycles)
+2023-04-05 11:57:28,022 reranking models by 'plddt' metric
+2023-04-05 11:57:28,022 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=87.1 pTM=0.855
+2023-04-05 11:57:28,870 Done
+2023-04-05 11:57:30,261 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-04-05 11:57:33,090 Running on GPU
+2023-04-05 11:57:33,534 Found 4 citations for tools or databases
+2023-04-05 11:57:33,535 Query 1/1: pepsin (length 388)
+2023-04-05 11:57:34,428 Sleeping for 6s. Reason: PENDING
+2023-04-05 11:57:41,343 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:57:52,235 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:58:01,128 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:58:12,065 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:58:19,993 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:58:29,901 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:58:37,740 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:58:43,663 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:58:53,482 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:59:04,314 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:59:10,222 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:59:21,055 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:59:27,966 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:59:42,931 Setting max_seq=512, max_extra_seq=5120
+2023-04-05 12:00:09,840 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=85.8 pTM=0.858
+2023-04-05 12:00:19,778 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=86.6 pTM=0.87 tol=0.489
+2023-04-05 12:00:29,743 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=86.9 pTM=0.869 tol=0.547
+2023-04-05 12:00:39,733 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=87.4 pTM=0.872 tol=0.382
+2023-04-05 12:00:49,784 alphafold2_ptm_model_1_seed_000 recycle=4 pLDDT=87.6 pTM=0.873 tol=0.162
+2023-04-05 12:00:59,888 alphafold2_ptm_model_1_seed_000 recycle=5 pLDDT=88.2 pTM=0.876 tol=0.15
+2023-04-05 12:00:59,888 alphafold2_ptm_model_1_seed_000 took 69.8s (5 recycles)
+2023-04-05 12:01:00,063 reranking models by 'plddt' metric
+2023-04-05 12:01:00,064 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=88.2 pTM=0.876
+2023-04-05 12:01:00,986 Done
+2023-05-09 15:41:54,839 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-05-09 15:43:28,012 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-05-09 15:45:48,352 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-05-09 15:45:50,548 Running on GPU
+2023-05-09 15:45:51,320 Found 4 citations for tools or databases
+2023-05-09 15:45:51,321 Query 1/1: insulin (length 110)
+2023-05-09 15:45:54,614 Setting max_seq=512, max_extra_seq=1775
+2023-05-09 15:46:17,822 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=51.1 pTM=0.229
+2023-05-09 15:46:21,344 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=50.2 pTM=0.234 tol=3.04
+2023-05-09 15:46:21,344 alphafold2_ptm_model_1_seed_000 took 17.2s (1 recycles)
+2023-05-09 15:46:21,468 reranking models by 'plddt' metric
+2023-05-09 15:46:21,468 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=50.2 pTM=0.234
+2023-05-09 15:46:22,197 Done
+2023-05-09 15:47:40,442 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-05-09 15:47:42,960 Running on GPU
+2023-05-09 15:47:43,491 Found 4 citations for tools or databases
+2023-05-09 15:47:43,493 Skipping insulin (already done)
+2023-05-09 15:47:43,493 Done

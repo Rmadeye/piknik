@@ -1,0 +1,160 @@
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+2023-04-05 11:46:51,505 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-04-05 11:46:54,355 Running on GPU
+2023-04-05 11:46:54,776 Found 4 citations for tools or databases
+2023-04-05 11:46:54,777 Skipping ache (already done)
+2023-04-05 11:46:54,777 Done
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+2023-04-05 11:46:55,712 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-04-05 11:46:58,570 Running on GPU
+2023-04-05 11:46:59,031 Found 4 citations for tools or databases
+2023-04-05 11:46:59,032 Query 1/1: amylase (length 496)
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]                                                             PENDING:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]RUNNING:   0%|          | 0/150 [elapsed: 00:08 remaining: ?]RUNNING:   5%|▍         | 7/150 [elapsed: 00:08 remaining: 02:59]                                                                 RUNNING:   5%|▍         | 7/150 [elapsed: 00:08 remaining: 02:59]RUNNING:   5%|▍         | 7/150 [elapsed: 00:16 remaining: 02:59]RUNNING:   9%|▉         | 14/150 [elapsed: 00:16 remaining: 02:40]                                                                  RUNNING:   9%|▉         | 14/150 [elapsed: 00:16 remaining: 02:40]RUNNING:   9%|▉         | 14/150 [elapsed: 00:27 remaining: 02:40]RUNNING:  16%|█▌        | 24/150 [elapsed: 00:27 remaining: 02:22]                                                                  RUNNING:  16%|█▌        | 24/150 [elapsed: 00:27 remaining: 02:22]RUNNING:  16%|█▌        | 24/150 [elapsed: 00:34 remaining: 02:22]RUNNING:  20%|██        | 30/150 [elapsed: 00:34 remaining: 02:15]                                                                  RUNNING:  20%|██        | 30/150 [elapsed: 00:34 remaining: 02:15]RUNNING:  20%|██        | 30/150 [elapsed: 00:42 remaining: 02:15]RUNNING:  25%|██▍       | 37/150 [elapsed: 00:42 remaining: 02:07]                                                                  RUNNING:  25%|██▍       | 37/150 [elapsed: 00:42 remaining: 02:07]RUNNING:  25%|██▍       | 37/150 [elapsed: 00:50 remaining: 02:07]RUNNING:  29%|██▉       | 44/150 [elapsed: 00:50 remaining: 01:59]                                                                  RUNNING:  29%|██▉       | 44/150 [elapsed: 00:50 remaining: 01:59]RUNNING:  29%|██▉       | 44/150 [elapsed: 00:56 remaining: 01:59]RUNNING:  33%|███▎      | 49/150 [elapsed: 00:56 remaining: 01:55]                                                                  RUNNING:  33%|███▎      | 49/150 [elapsed: 00:56 remaining: 01:55]RUNNING:  33%|███▎      | 49/150 [elapsed: 01:02 remaining: 01:55]RUNNING:  37%|███▋      | 55/150 [elapsed: 01:02 remaining: 01:48]                                                                  RUNNING:  37%|███▋      | 55/150 [elapsed: 01:02 remaining: 01:48]RUNNING:  37%|███▋      | 55/150 [elapsed: 01:11 remaining: 01:48]RUNNING:  42%|████▏     | 63/150 [elapsed: 01:11 remaining: 01:38]                                                                  RUNNING:  42%|████▏     | 63/150 [elapsed: 01:11 remaining: 01:38]RUNNING:  42%|████▏     | 63/150 [elapsed: 01:20 remaining: 01:38]RUNNING:  47%|████▋     | 71/150 [elapsed: 01:20 remaining: 01:28]                                                                  RUNNING:  47%|████▋     | 71/150 [elapsed: 01:20 remaining: 01:28]RUNNING:  47%|████▋     | 71/150 [elapsed: 01:30 remaining: 01:28]RUNNING:  53%|█████▎    | 80/150 [elapsed: 01:30 remaining: 01:18]                                                                  RUNNING:  53%|█████▎    | 80/150 [elapsed: 01:30 remaining: 01:18]RUNNING:  53%|█████▎    | 80/150 [elapsed: 01:38 remaining: 01:18]RUNNING:  58%|█████▊    | 87/150 [elapsed: 01:38 remaining: 01:10]                                                                  RUNNING:  58%|█████▊    | 87/150 [elapsed: 01:38 remaining: 01:10]RUNNING:  58%|█████▊    | 87/150 [elapsed: 01:49 remaining: 01:10]RUNNING:  65%|██████▍   | 97/150 [elapsed: 01:49 remaining: 00:58]                                                                  RUNNING:  65%|██████▍   | 97/150 [elapsed: 01:49 remaining: 00:58]RUNNING:  65%|██████▍   | 97/150 [elapsed: 01:55 remaining: 00:58]RUNNING:  68%|██████▊   | 102/150 [elapsed: 01:55 remaining: 00:53]                                                                   RUNNING:  68%|██████▊   | 102/150 [elapsed: 01:55 remaining: 00:53]RUNNING:  68%|██████▊   | 102/150 [elapsed: 02:06 remaining: 00:53]RUNNING:  75%|███████▍  | 112/150 [elapsed: 02:06 remaining: 00:42]                                                                   RUNNING:  75%|███████▍  | 112/150 [elapsed: 02:06 remaining: 00:42]RUNNING:  75%|███████▍  | 112/150 [elapsed: 02:12 remaining: 00:42]RUNNING:  78%|███████▊  | 117/150 [elapsed: 02:12 remaining: 00:37]                                                                   RUNNING:  78%|███████▊  | 117/150 [elapsed: 02:12 remaining: 00:37]RUNNING:  78%|███████▊  | 117/150 [elapsed: 02:18 remaining: 00:37]RUNNING:  81%|████████▏ | 122/150 [elapsed: 02:18 remaining: 00:31]                                                                   RUNNING:  81%|████████▏ | 122/150 [elapsed: 02:18 remaining: 00:31]RUNNING:  81%|████████▏ | 122/150 [elapsed: 02:23 remaining: 00:31]RUNNING:  85%|████████▍ | 127/150 [elapsed: 02:23 remaining: 00:26]                                                                   RUNNING:  85%|████████▍ | 127/150 [elapsed: 02:23 remaining: 00:26]RUNNING:  85%|████████▍ | 127/150 [elapsed: 02:34 remaining: 00:26]RUNNING:  91%|█████████▏| 137/150 [elapsed: 02:34 remaining: 00:14]                                                                   RUNNING:  91%|█████████▏| 137/150 [elapsed: 02:34 remaining: 00:14]RUNNING:  91%|█████████▏| 137/150 [elapsed: 02:41 remaining: 00:14]RUNNING:  95%|█████████▌| 143/150 [elapsed: 02:41 remaining: 00:07]                                                                   RUNNING:  95%|█████████▌| 143/150 [elapsed: 02:41 remaining: 00:07]RUNNING:  95%|█████████▌| 143/150 [elapsed: 02:48 remaining: 00:07]RUNNING:  99%|█████████▉| 149/150 [elapsed: 02:48 remaining: 00:01]                                                                   RUNNING:  99%|█████████▉| 149/150 [elapsed: 02:48 remaining: 00:01]RUNNING:  99%|█████████▉| 149/150 [elapsed: 02:56 remaining: 00:01]RUNNING: |          | 156/? [elapsed: 02:56 remaining: 00:00]                                                                   RUNNING: |          | 156/? [elapsed: 02:56 remaining: 00:00]RUNNING: |          | 156/? [elapsed: 03:05 remaining: 00:00]RUNNING: |          | 164/? [elapsed: 03:05 remaining: 00:00]                                                             RUNNING: |          | 164/? [elapsed: 03:05 remaining: 00:00]RUNNING: |          | 164/? [elapsed: 03:12 remaining: 00:00]RUNNING: |          | 170/? [elapsed: 03:12 remaining: 00:00]                                                             RUNNING: |          | 170/? [elapsed: 03:12 remaining: 00:00]RUNNING: |          | 170/? [elapsed: 03:17 remaining: 00:00]RUNNING: |          | 175/? [elapsed: 03:17 remaining: 00:00]                                                             RUNNING: |          | 175/? [elapsed: 03:17 remaining: 00:00]RUNNING: |          | 175/? [elapsed: 03:26 remaining: 00:00]RUNNING: |          | 183/? [elapsed: 03:26 remaining: 00:00]                                                             RUNNING: |          | 183/? [elapsed: 03:26 remaining: 00:00]RUNNING: |          | 183/? [elapsed: 03:33 remaining: 00:00]RUNNING: |          | 189/? [elapsed: 03:33 remaining: 00:00]                                                             RUNNING: |          | 189/? [elapsed: 03:33 remaining: 00:00]RUNNING: |          | 189/? [elapsed: 03:43 remaining: 00:00]RUNNING: |          | 198/? [elapsed: 03:43 remaining: 00:00]                                                             RUNNING: |          | 198/? [elapsed: 03:43 remaining: 00:00]RUNNING: |          | 198/? [elapsed: 03:49 remaining: 00:00]RUNNING: |          | 203/? [elapsed: 03:49 remaining: 00:00]                                                             RUNNING: |          | 203/? [elapsed: 03:49 remaining: 00:00]RUNNING: |          | 203/? [elapsed: 03:58 remaining: 00:00]RUNNING: |          | 211/? [elapsed: 03:58 remaining: 00:00]                                                             RUNNING: |          | 211/? [elapsed: 03:58 remaining: 00:00]RUNNING: |          | 211/? [elapsed: 04:06 remaining: 00:00]RUNNING: |          | 218/? [elapsed: 04:06 remaining: 00:00]                                                             RUNNING: |          | 218/? [elapsed: 04:06 remaining: 00:00]RUNNING: |          | 218/? [elapsed: 04:12 remaining: 00:00]RUNNING: |          | 223/? [elapsed: 04:12 remaining: 00:00]                                                             RUNNING: |          | 223/? [elapsed: 04:12 remaining: 00:00]RUNNING: |          | 223/? [elapsed: 04:19 remaining: 00:00]RUNNING: |          | 229/? [elapsed: 04:19 remaining: 00:00]                                                             RUNNING: |          | 229/? [elapsed: 04:19 remaining: 00:00]RUNNING: |          | 229/? [elapsed: 04:26 remaining: 00:00]RUNNING: |          | 236/? [elapsed: 04:26 remaining: 00:00]                                                             RUNNING: |          | 236/? [elapsed: 04:26 remaining: 00:00]RUNNING: |          | 236/? [elapsed: 04:36 remaining: 00:00]RUNNING: |          | 245/? [elapsed: 04:36 remaining: 00:00]                                                             RUNNING: |          | 245/? [elapsed: 04:36 remaining: 00:00]RUNNING: |          | 245/? [elapsed: 04:43 remaining: 00:00]RUNNING: |          | 251/? [elapsed: 04:43 remaining: 00:00]                                                             RUNNING: |          | 251/? [elapsed: 04:43 remaining: 00:00]COMPLETE: |          | 251/? [elapsed: 04:53 remaining: 00:00]COMPLETE: |          | 251/? [elapsed: 04:56 remaining: 00:00]
+2023-04-05 11:46:59,943 Sleeping for 7s. Reason: PENDING
+2023-04-05 11:47:07,835 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:47:15,758 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:47:26,646 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:47:33,457 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:47:41,310 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:47:49,218 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:47:55,104 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:48:01,999 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:48:10,882 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:48:19,790 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:48:29,685 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:48:37,578 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:48:48,502 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:48:54,415 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:49:05,250 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:49:11,147 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:49:17,050 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:49:22,896 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:49:33,846 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:49:40,670 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:49:47,514 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:49:55,404 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:50:04,314 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:50:11,140 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:50:17,025 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:50:25,917 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:50:32,756 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:50:42,654 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:50:48,601 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:50:57,449 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:51:05,300 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:51:11,204 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:51:18,113 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:51:25,975 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:51:35,804 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:51:42,629 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:51:56,228 Setting max_seq=512, max_extra_seq=5120
+2023-04-05 11:52:27,102 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=96 pTM=0.932
+2023-04-05 11:52:41,565 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=96.9 pTM=0.938 tol=0.28
+2023-04-05 11:52:56,049 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=97.1 pTM=0.938 tol=0.125
+2023-04-05 11:53:10,618 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=97.2 pTM=0.939 tol=0.0409
+2023-04-05 11:53:25,251 alphafold2_ptm_model_1_seed_000 recycle=4 pLDDT=97.2 pTM=0.939 tol=0.0535
+2023-04-05 11:53:39,938 alphafold2_ptm_model_1_seed_000 recycle=5 pLDDT=97.3 pTM=0.939 tol=0.0341
+2023-04-05 11:53:39,938 alphafold2_ptm_model_1_seed_000 took 97.8s (5 recycles)
+2023-04-05 11:53:40,184 reranking models by 'plddt' metric
+2023-04-05 11:53:40,184 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=97.3 pTM=0.939
+2023-04-05 11:53:41,075 Done
+2023-04-05 11:53:42,495 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/cf_1.5/bin/colabfold_batch", line 8, in <module>
+    sys.exit(main())
+  File "/opt/miniconda3/envs/cf_1.5/lib/python3.7/site-packages/colabfold/batch.py", line 1759, in main
+    queries, is_complex = get_queries(args.input, args.sort_queries_by)
+  File "/opt/miniconda3/envs/cf_1.5/lib/python3.7/site-packages/colabfold/batch.py", line 600, in get_queries
+    assert "id" in df.columns and "sequence" in df.columns
+AssertionError
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+2023-04-05 11:53:43,160 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-04-05 11:53:45,967 Running on GPU
+2023-04-05 11:53:46,386 Found 4 citations for tools or databases
+2023-04-05 11:53:46,387 Query 1/1: lipase (length 320)
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]                                                             PENDING:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]RUNNING:   0%|          | 0/150 [elapsed: 00:09 remaining: ?]RUNNING:   5%|▌         | 8/150 [elapsed: 00:09 remaining: 02:54]                                                                 RUNNING:   5%|▌         | 8/150 [elapsed: 00:09 remaining: 02:54]RUNNING:   5%|▌         | 8/150 [elapsed: 00:18 remaining: 02:54]RUNNING:  11%|█         | 16/150 [elapsed: 00:18 remaining: 02:34]                                                                  RUNNING:  11%|█         | 16/150 [elapsed: 00:18 remaining: 02:34]RUNNING:  11%|█         | 16/150 [elapsed: 00:25 remaining: 02:34]RUNNING:  15%|█▍        | 22/150 [elapsed: 00:25 remaining: 02:27]                                                                  RUNNING:  15%|█▍        | 22/150 [elapsed: 00:25 remaining: 02:27]RUNNING:  15%|█▍        | 22/150 [elapsed: 00:36 remaining: 02:27]RUNNING:  21%|██▏       | 32/150 [elapsed: 00:36 remaining: 02:12]                                                                  RUNNING:  21%|██▏       | 32/150 [elapsed: 00:36 remaining: 02:12]RUNNING:  21%|██▏       | 32/150 [elapsed: 00:47 remaining: 02:12]RUNNING:  28%|██▊       | 42/150 [elapsed: 00:47 remaining: 01:59]                                                                  RUNNING:  28%|██▊       | 42/150 [elapsed: 00:47 remaining: 01:59]RUNNING:  28%|██▊       | 42/150 [elapsed: 00:56 remaining: 01:59]RUNNING:  33%|███▎      | 50/150 [elapsed: 00:56 remaining: 01:50]                                                                  RUNNING:  33%|███▎      | 50/150 [elapsed: 00:56 remaining: 01:50]RUNNING:  33%|███▎      | 50/150 [elapsed: 01:06 remaining: 01:50]RUNNING:  39%|███▉      | 59/150 [elapsed: 01:06 remaining: 01:40]                                                                  RUNNING:  39%|███▉      | 59/150 [elapsed: 01:06 remaining: 01:40]RUNNING:  39%|███▉      | 59/150 [elapsed: 01:14 remaining: 01:40]RUNNING:  45%|████▍     | 67/150 [elapsed: 01:14 remaining: 01:31]                                                                  RUNNING:  45%|████▍     | 67/150 [elapsed: 01:14 remaining: 01:31]RUNNING:  45%|████▍     | 67/150 [elapsed: 01:20 remaining: 01:31]RUNNING:  48%|████▊     | 72/150 [elapsed: 01:20 remaining: 01:27]                                                                  RUNNING:  48%|████▊     | 72/150 [elapsed: 01:20 remaining: 01:27]RUNNING:  48%|████▊     | 72/150 [elapsed: 01:28 remaining: 01:27]RUNNING:  53%|█████▎    | 79/150 [elapsed: 01:28 remaining: 01:19]                                                                  RUNNING:  53%|█████▎    | 79/150 [elapsed: 01:28 remaining: 01:19]RUNNING:  53%|█████▎    | 79/150 [elapsed: 01:35 remaining: 01:19]RUNNING:  57%|█████▋    | 85/150 [elapsed: 01:35 remaining: 01:13]                                                                  RUNNING:  57%|█████▋    | 85/150 [elapsed: 01:35 remaining: 01:13]RUNNING:  57%|█████▋    | 85/150 [elapsed: 01:41 remaining: 01:13]RUNNING:  60%|██████    | 90/150 [elapsed: 01:41 remaining: 01:08]                                                                  RUNNING:  60%|██████    | 90/150 [elapsed: 01:41 remaining: 01:08]RUNNING:  60%|██████    | 90/150 [elapsed: 01:47 remaining: 01:08]RUNNING:  63%|██████▎   | 95/150 [elapsed: 01:47 remaining: 01:03]                                                                  RUNNING:  63%|██████▎   | 95/150 [elapsed: 01:47 remaining: 01:03]RUNNING:  63%|██████▎   | 95/150 [elapsed: 01:56 remaining: 01:03]RUNNING:  69%|██████▊   | 103/150 [elapsed: 01:56 remaining: 00:53]                                                                   RUNNING:  69%|██████▊   | 103/150 [elapsed: 01:56 remaining: 00:53]RUNNING:  69%|██████▊   | 103/150 [elapsed: 02:05 remaining: 00:53]RUNNING:  74%|███████▍  | 111/150 [elapsed: 02:05 remaining: 00:44]                                                                   RUNNING:  74%|███████▍  | 111/150 [elapsed: 02:05 remaining: 00:44]RUNNING:  74%|███████▍  | 111/150 [elapsed: 02:16 remaining: 00:44]RUNNING:  81%|████████  | 121/150 [elapsed: 02:16 remaining: 00:32]                                                                   RUNNING:  81%|████████  | 121/150 [elapsed: 02:16 remaining: 00:32]RUNNING:  81%|████████  | 121/150 [elapsed: 02:23 remaining: 00:32]RUNNING:  85%|████████▍ | 127/150 [elapsed: 02:23 remaining: 00:25]                                                                   RUNNING:  85%|████████▍ | 127/150 [elapsed: 02:23 remaining: 00:25]RUNNING:  85%|████████▍ | 127/150 [elapsed: 02:33 remaining: 00:25]RUNNING:  91%|█████████▏| 137/150 [elapsed: 02:33 remaining: 00:14]                                                                   RUNNING:  91%|█████████▏| 137/150 [elapsed: 02:33 remaining: 00:14]COMPLETE:  91%|█████████▏| 137/150 [elapsed: 02:42 remaining: 00:14]COMPLETE: 100%|██████████| 150/150 [elapsed: 02:42 remaining: 00:00]COMPLETE: 100%|██████████| 150/150 [elapsed: 02:45 remaining: 00:00]
+2023-04-05 11:53:47,333 Sleeping for 8s. Reason: PENDING
+2023-04-05 11:53:56,197 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:54:05,023 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:54:11,886 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:54:22,799 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:54:33,649 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:54:42,510 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:54:52,416 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:55:01,319 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:55:07,277 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:55:15,166 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:55:22,059 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:55:27,967 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:55:33,879 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:55:42,790 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:55:51,672 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:56:02,600 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:56:09,441 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:56:20,341 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:56:32,921 Setting max_seq=512, max_extra_seq=5120
+2023-04-05 11:56:54,477 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=84.9 pTM=0.841
+2023-04-05 11:57:01,126 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=86.8 pTM=0.854 tol=1.28
+2023-04-05 11:57:07,791 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=87.1 pTM=0.856 tol=0.981
+2023-04-05 11:57:14,455 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=87.1 pTM=0.855 tol=0.807
+2023-04-05 11:57:21,135 alphafold2_ptm_model_1_seed_000 recycle=4 pLDDT=87.4 pTM=0.858 tol=0.865
+2023-04-05 11:57:27,844 alphafold2_ptm_model_1_seed_000 recycle=5 pLDDT=87.1 pTM=0.855 tol=0.706
+2023-04-05 11:57:27,844 alphafold2_ptm_model_1_seed_000 took 49.5s (5 recycles)
+2023-04-05 11:57:28,022 reranking models by 'plddt' metric
+2023-04-05 11:57:28,022 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=87.1 pTM=0.855
+2023-04-05 11:57:28,870 Done
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+2023-04-05 11:57:30,261 Running colabfold 1.5.2 (fb16be5c2d913ca9e4a4e779be82e16dc1b9edf1)
+2023-04-05 11:57:33,090 Running on GPU
+2023-04-05 11:57:33,534 Found 4 citations for tools or databases
+2023-04-05 11:57:33,535 Query 1/1: pepsin (length 388)
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]                                                             PENDING:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]RUNNING:   0%|          | 0/150 [elapsed: 00:07 remaining: ?]RUNNING:   4%|▍         | 6/150 [elapsed: 00:07 remaining: 03:07]                                                                 RUNNING:   4%|▍         | 6/150 [elapsed: 00:07 remaining: 03:07]RUNNING:   4%|▍         | 6/150 [elapsed: 00:18 remaining: 03:07]RUNNING:  11%|█         | 16/150 [elapsed: 00:18 remaining: 02:34]                                                                  RUNNING:  11%|█         | 16/150 [elapsed: 00:18 remaining: 02:34]RUNNING:  11%|█         | 16/150 [elapsed: 00:27 remaining: 02:34]RUNNING:  16%|█▌        | 24/150 [elapsed: 00:27 remaining: 02:22]                                                                  RUNNING:  16%|█▌        | 24/150 [elapsed: 00:27 remaining: 02:22]RUNNING:  16%|█▌        | 24/150 [elapsed: 00:38 remaining: 02:22]RUNNING:  23%|██▎       | 34/150 [elapsed: 00:38 remaining: 02:09]                                                                  RUNNING:  23%|██▎       | 34/150 [elapsed: 00:38 remaining: 02:09]RUNNING:  23%|██▎       | 34/150 [elapsed: 00:46 remaining: 02:09]RUNNING:  27%|██▋       | 41/150 [elapsed: 00:46 remaining: 02:02]                                                                  RUNNING:  27%|██▋       | 41/150 [elapsed: 00:46 remaining: 02:02]RUNNING:  27%|██▋       | 41/150 [elapsed: 00:56 remaining: 02:02]RUNNING:  33%|███▎      | 50/150 [elapsed: 00:56 remaining: 01:51]                                                                  RUNNING:  33%|███▎      | 50/150 [elapsed: 00:56 remaining: 01:51]RUNNING:  33%|███▎      | 50/150 [elapsed: 01:04 remaining: 01:51]RUNNING:  38%|███▊      | 57/150 [elapsed: 01:04 remaining: 01:43]                                                                  RUNNING:  38%|███▊      | 57/150 [elapsed: 01:04 remaining: 01:43]RUNNING:  38%|███▊      | 57/150 [elapsed: 01:10 remaining: 01:43]RUNNING:  41%|████▏     | 62/150 [elapsed: 01:10 remaining: 01:39]                                                                  RUNNING:  41%|████▏     | 62/150 [elapsed: 01:10 remaining: 01:39]RUNNING:  41%|████▏     | 62/150 [elapsed: 01:19 remaining: 01:39]RUNNING:  47%|████▋     | 71/150 [elapsed: 01:19 remaining: 01:28]                                                                  RUNNING:  47%|████▋     | 71/150 [elapsed: 01:19 remaining: 01:28]RUNNING:  47%|████▋     | 71/150 [elapsed: 01:30 remaining: 01:28]RUNNING:  54%|█████▍    | 81/150 [elapsed: 01:30 remaining: 01:16]                                                                  RUNNING:  54%|█████▍    | 81/150 [elapsed: 01:30 remaining: 01:16]RUNNING:  54%|█████▍    | 81/150 [elapsed: 01:36 remaining: 01:16]RUNNING:  57%|█████▋    | 86/150 [elapsed: 01:36 remaining: 01:11]                                                                  RUNNING:  57%|█████▋    | 86/150 [elapsed: 01:36 remaining: 01:11]RUNNING:  57%|█████▋    | 86/150 [elapsed: 01:47 remaining: 01:11]RUNNING:  64%|██████▍   | 96/150 [elapsed: 01:47 remaining: 00:59]                                                                  RUNNING:  64%|██████▍   | 96/150 [elapsed: 01:47 remaining: 00:59]RUNNING:  64%|██████▍   | 96/150 [elapsed: 01:54 remaining: 00:59]RUNNING:  68%|██████▊   | 102/150 [elapsed: 01:54 remaining: 00:53]                                                                   RUNNING:  68%|██████▊   | 102/150 [elapsed: 01:54 remaining: 00:53]COMPLETE:  68%|██████▊   | 102/150 [elapsed: 02:04 remaining: 00:53]COMPLETE: 100%|██████████| 150/150 [elapsed: 02:04 remaining: 00:00]COMPLETE: 100%|██████████| 150/150 [elapsed: 02:07 remaining: 00:00]
+2023-04-05 11:57:34,428 Sleeping for 6s. Reason: PENDING
+2023-04-05 11:57:41,343 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:57:52,235 Sleeping for 8s. Reason: RUNNING
+2023-04-05 11:58:01,128 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:58:12,065 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:58:19,993 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:58:29,901 Sleeping for 7s. Reason: RUNNING
+2023-04-05 11:58:37,740 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:58:43,663 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:58:53,482 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:59:04,314 Sleeping for 5s. Reason: RUNNING
+2023-04-05 11:59:10,222 Sleeping for 10s. Reason: RUNNING
+2023-04-05 11:59:21,055 Sleeping for 6s. Reason: RUNNING
+2023-04-05 11:59:27,966 Sleeping for 9s. Reason: RUNNING
+2023-04-05 11:59:42,931 Setting max_seq=512, max_extra_seq=5120
+2023-04-05 12:00:09,840 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=85.8 pTM=0.858
+2023-04-05 12:00:19,778 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=86.6 pTM=0.87 tol=0.489
+2023-04-05 12:00:29,743 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=86.9 pTM=0.869 tol=0.547
+2023-04-05 12:00:39,733 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=87.4 pTM=0.872 tol=0.382
+2023-04-05 12:00:49,784 alphafold2_ptm_model_1_seed_000 recycle=4 pLDDT=87.6 pTM=0.873 tol=0.162
+2023-04-05 12:00:59,888 alphafold2_ptm_model_1_seed_000 recycle=5 pLDDT=88.2 pTM=0.876 tol=0.15
+2023-04-05 12:00:59,888 alphafold2_ptm_model_1_seed_000 took 69.8s (5 recycles)
+2023-04-05 12:01:00,063 reranking models by 'plddt' metric
+2023-04-05 12:01:00,064 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=88.2 pTM=0.876
+2023-04-05 12:01:00,986 Done
