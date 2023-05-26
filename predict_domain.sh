@@ -1,18 +1,37 @@
 #!/bin/bash
 
-# rm domeny.fasta
-
 run_prediction(){
     rm -r domeny
     python /home/nfs/rmadaj/bins/esm/scripts/esmfold_inference.py -i domeny.fasta -o domeny
 }
 
+show_loading_bar() {
+    local chars="/-\|"
+    local delay=0.1
+    
+    while :; do
+        for ((i=0; i<${#chars}; i++)); do
+            echo -ne "${chars:i:1}" "\r"
+            sleep "$delay"
+        done
+    done
+}
+printf "
+O - obcinanie
+P - przycinanie
+T - transportowanie
+W - wiązanie
+L - linker
+"
 
 echo "Podaj skład domen w strukturze"
+
 read domeny
 
-
-letters=$(echo "$domeny" | grep -o '[ABCD:]')
+printf "
+        Obliczenia w toku... 
+        "
+letters=$(echo "$domeny" | grep -o '[WOPTL:]')
 
 # # Check if any valid letters are found
 if [[ -n $letters ]]; then
@@ -27,6 +46,12 @@ if [[ -n $letters ]]; then
 
     done
 fi 
+
+# Start the loading bar in the background
+show_loading_bar &
+
+# Save the background process ID
+loading_bar_pid=$!
 
 run_prediction
 
@@ -48,10 +73,11 @@ for (( i=0; i<${#stars}; i++ )); do
     sleep 0.5
 done
 sleep 2
-echo -n "**"
+echo -n "/********/"
+
 
 echo ""
         echo ""
         echo "Obliczenia zakończone"
         rm domeny.fasta
-fi
+kill "$loading_bar_pid"

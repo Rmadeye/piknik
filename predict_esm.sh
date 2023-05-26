@@ -25,6 +25,19 @@ is_valid_aa_sequence() {
     return 0
 }
 
+show_loading_bar() {
+    local chars="/-\|"
+    local delay=0.1
+    
+    while :; do
+        for ((i=0; i<${#chars}; i++)); do
+            echo -ne "${chars:i:1}" "\r"
+            sleep "$delay"
+        done
+    done
+}
+
+echo "Możliwe aminokwasy: ACDEFGHIKLMNPQRSTVWY"
 echo "Podaj sekwencję aminokwasów"
 read sequence
 
@@ -37,10 +50,10 @@ else
         printf "
         Obliczenia w toku... 
         "
-        while ! run_prediction; do
-             sleep 0.2
-             printf "."
-         done
+        show_loading_bar &
+        loading_bar_pid=$!
+        run_prediction
+
         stars="********"
 
 for (( i=0; i<${#stars}; i++ )); do
@@ -60,3 +73,4 @@ echo ""
         rm input.fasta
     fi
 fi
+kill "$loading_bar_pid"
